@@ -4,6 +4,13 @@
 	box-sizing: border-box;
 }
 
+:root{
+	--cl-white:rgb(240, 240, 240);
+	--cl-grey:rgb(138, 138, 138);
+	--cl-black:rgb(36, 36, 36);
+	--font: "Arial", sans-serif;
+}
+
 html,body{
 	height: 200vh;
 	width: 100%;
