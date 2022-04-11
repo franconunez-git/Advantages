@@ -26,6 +26,8 @@ html,body{
 	background-color: var(--cl-white);
 }
 
+/* SHARED PAGE 1 2	 */
+
 .page{
 	height: 50%;
 	width: 100%;
@@ -44,13 +46,6 @@ html,body{
 	justify-content: space-evenly;
 }
 
-.benefit{
-	display: flex;
-	flex-direction: column;
-	height: 33%;
-	gap: 6%;
-}
-
 h2{
 	font-size: 5vmin;
 	color: var(--cl-black);
@@ -65,6 +60,17 @@ h3{
 .desc{
 	text-align: left;
 }
+
+/* PAGE 1 */
+
+.benefit{
+	display: flex;
+	flex-direction: column;
+	height: 33%;
+	gap: 6%;
+}
+
+/* PAGE 2 */
 
 .step{
 	display: flex;
