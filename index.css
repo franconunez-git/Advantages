@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Verdana", cursive;
+	font-family: "Verdana", sans-serif;
 }
 
 :root{
@@ -23,6 +23,7 @@ html,body{
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
+	background-color: var(--cl-white);
 }
 
 .window{
@@ -32,7 +33,7 @@ html,body{
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	
+	justify-content: space-evenly;
 }
 
 .benefit-window{
@@ -50,9 +51,11 @@ html,body{
 
 h2{
 	font-size: 5vmin;
+	color: var(--cl-black);
 }
 
 h3{
 	font-weight: 100;
 	font-size: 4vmin;
+	color: var(--cl-black);
 }
