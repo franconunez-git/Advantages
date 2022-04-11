@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Arial", sans-serif;
+	font-family: "Verdana", cursive;
 }
 
 :root{
@@ -32,6 +32,15 @@ html,body{
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	
+}
+
+.benefit-window{
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	height: 80%;
+	justify-content: space-evenly;
 }
 
 .benefit{
@@ -40,10 +49,10 @@ html,body{
 }
 
 h2{
-	font-size: 8vmin;
+	font-size: 5vmin;
 }
 
 h3{
 	font-weight: 100;
-	font-size: 4.5vmin;
+	font-size: 4vmin;
 }
