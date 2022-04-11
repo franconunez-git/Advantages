@@ -2,13 +2,13 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Arial", sans-serif;
 }
 
 :root{
 	--cl-white:rgb(240, 240, 240);
 	--cl-grey:rgb(138, 138, 138);
 	--cl-black:rgb(36, 36, 36);
-	--font: "Arial", sans-serif;
 }
 
 html,body{
@@ -32,4 +32,18 @@ html,body{
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+}
+
+.benefit{
+	display: flex;
+	flex-direction: column;
+}
+
+h2{
+	font-size: 8vmin;
+}
+
+h3{
+	font-weight: 100;
+	font-size: 4.5vmin;
 }
