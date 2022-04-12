@@ -24,7 +24,7 @@ html,body{
 
 :root{
 	--cl-white:rgb(240, 240, 240);
-	--cl-grey:rgb(138, 138, 138);
+	--cl-grey:rgb(95, 95, 95);
 	--cl-black:rgb(36, 36, 36);
 }
 
@@ -55,6 +55,7 @@ h2{
 
 .subtitle{
 	width: 85%;
+	color: var(--cl-grey);
 }
 
 i{
@@ -69,6 +70,8 @@ h3{
 
 .desc{
 	text-align: left;
+	color: var(--cl-grey);
+	margin: 3%;
 }
 
 /* PAGE 1 */
@@ -92,5 +95,32 @@ h3{
 /* MEDIA QUERIES */
 
 @media (min-width:899px) {
-	
+
+/* SHARED PAGE 1 2 */
+
+	.page{
+		justify-content: space-around;
+	}
+
+	.window{
+		flex-direction: row;
+		height: 60%;
+		width: 100%;
+	}
+
+	.desc{
+		text-align: center;
+	}
+
+/* PAGE 1 */
+
+	.benefit{
+		width: 26%;
+	}
+
+/* PAGE 2 */
+
+	.step{
+		width: 23%;
+	}
 }
