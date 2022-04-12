@@ -5,12 +5,6 @@
 	font-family: "Verdana", sans-serif;
 }
 
-:root{
-	--cl-white:rgb(240, 240, 240);
-	--cl-grey:rgb(138, 138, 138);
-	--cl-black:rgb(36, 36, 36);
-}
-
 html,body{
 	height: 200vh;
 	width: 100%;
@@ -24,6 +18,14 @@ html,body{
 	align-items: center;
 	flex-direction: column;
 	background-color: var(--cl-white);
+}
+
+/* 	VARIABLES */
+
+:root{
+	--cl-white:rgb(240, 240, 240);
+	--cl-grey:rgb(138, 138, 138);
+	--cl-black:rgb(36, 36, 36);
 }
 
 /* SHARED PAGE 1 2	 */
@@ -51,9 +53,17 @@ h2{
 	color: var(--cl-black);
 }
 
+.subtitle{
+	width: 85%;
+}
+
+i{
+	font-size: 6.5vmin;
+}
+
 h3{
 	font-weight: 100;
-	font-size: 4vmin;
+	font-size: 3.5vmin;
 	color: var(--cl-black);
 }
 
@@ -77,4 +87,10 @@ h3{
 	flex-direction: column;
 	height: 25%;
 	gap: 3%;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width:899px) {
+	
 }
